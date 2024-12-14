@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer Garden</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="top-nav">
+        <h3 id="h_heading">Ten Men</h3>
+        <a href="about.html">About</a>
+        <a href="developer.html">Developer List</a>
+        <a href="hiring.html">Hiring</a>
+        <a href="index.html">Home</a>
+    </nav>
+
+    <p>Add a Designation to all employees:</p>
+
+   <p id="demo"></p>
+
+   <script>
+        function employee(name, title, salary){
+            this.name=name;
+            this.title=title;
+            this.salary=salary
+        }
+        employee.prototype.designation = "foreign";
+        employee.prototype.companyName= "It";
+        const Murad =  new employee("murad","web developer", 1000);
+        document.getElementById("demo").innerHTML=Murad.companyName;
+   </script>
+
+</body>
+</html>

@@ -1,0 +1,75 @@
+body{
+    background-color: rgb(167, 244, 244);
+    text-align: center;
+}
+
+.top-nav{
+    overflow: hidden;
+    background-color: aquamarine;
+    /* position:fixed; */
+    width: 100%;
+}
+.top-nav a:hover{
+    background-color: rgb(109, 199, 169);
+}
+button:hover{
+    background-color:  rgb(230, 153, 65);
+    cursor: pointer;
+}
+.top-nav a{
+    float: right;
+    text-align: center;
+    padding: 14px 16px;
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+}
+#h_heading{
+    overflow: hidden;
+    float: left;
+    margin-left: 30px}
+#about_heading{
+    margin: 2px;
+}
+    button{
+    background-color: rgb(206, 188, 167);
+    border-radius: 1rem;
+    width: 300px;
+    margin: 2px;
+}
+.b_1{
+    margin-top: 60px;
+    padding: 2px 50px;
+    text-align: center;
+}
+
+.b_2{
+    text-align: center;
+    margin-top: 0px;
+}
+#providing{
+        text-align: center;
+}
+#identity{
+    text-align: center;
+}
+img{
+    border-radius: 15px;
+    overflow: hidden;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+
+
+.b_shadow{
+    width: 60%;
+    height: 100px;
+    padding: 15px;
+    background-color: rgba(214, 144, 119, 0.719);
+    box-shadow: 5px 5px;
+    font-size: 20px;
+    margin-left: 220px;
+}
